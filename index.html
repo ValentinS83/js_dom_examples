@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>DOM</title>
 </head>
 <body>
-    <div id="card">
+
+    <div card="card">
+        <p id="interactive-text">Click me!</p>
+    </div>
+
+    <article id="card">
         <p>This is a card</p>
 
         <ol>
@@ -16,8 +22,9 @@
         </ol>
         <label for="comment">Comment</label>
         <input type="text" name="comment" id="comment">
-        
-    </div>
+        <footer></footer>
+    </article>
+
     <script src="./script.js"></script>
 </body>
 </html>
